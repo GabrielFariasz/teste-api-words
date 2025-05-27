@@ -13,8 +13,6 @@ Crie uma API que recebe textos e retorna um **ranking das palavras mais frequent
 - Exemplo de payload:
 
 ```json
-json
-CopyEdit
 {
   "text": "hoje é um bom dia para aprender back-end com testes técnicos"
 }
@@ -29,7 +27,6 @@ CopyEdit
 - Resposta esperada:
 
 ```json
-
 [
   { "word": "back-end", "count": 1, },
   { "word": "testes", "count": 1 },
